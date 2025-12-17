@@ -5,58 +5,83 @@
     justify-items: center;
 }
 
-.caculation{
-    border: 5px solid black;
+.calculation {
+    position: relative;
+    margin-top: 3%;
+    border: 2px solid rgb(138, 128, 128);
     border-radius: 2%;
-   
+    box-shadow: 2px 2px 5px rgb(100, 94, 94)
 }
-.nullspace{
+
+.menu-btn {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 35px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    z-index: 10;
+
+}
+
+.menu-btn span {
+
+    height: 4px;
+    width: 100%;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.nullspace {
+    position: relative;
     width: auto;
     height: 160px;
     font-size: 50px;
     display: flex;
-    align-items: center ;
+    align-items: center;
     color: rgb(63, 62, 62);
 }
 
-.clearence{
+.clearence {
     display: flex;
     gap: .3rem;
     padding: 3px;
 }
 
-.clean{
+.clean {
     background-color: rgb(221, 214, 214);
     border: .2px solid rgb(207, 204, 204);
-    border-radius: .4rem ;
+    border-radius: .4rem;
     padding: 15px;
 }
 
-.small{
+.small {
     flex-grow: 1;
     text-align: center;
     width: 50px;
     justify-items: center;
-    
+
 }
 
-.fixed-item{
-    
-    text-align: center;
-    justify-items: center;
+.fixed-item {
+    display: flex;
+    justify-content: center;
     width: 138px;
 }
-main{
-    width: 20px;
+
+main {
     font-size: 35px;
 }
 
-.clean:hover{
+.clean:hover {
     cursor: pointer;
     opacity: 0.8;
 }
 
-.equal{
+.equal {
     background-color: rgb(230, 27, 27);
     color: rgb(163, 37, 15);
 }
